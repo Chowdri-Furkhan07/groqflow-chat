@@ -14,7 +14,7 @@ A production-structured Streamlit chat application powered by Groq's LPU inferen
 - **Streaming responses** - assistant replies are rendered token-by-token in a typing-style UI.
 - **Per-session memory** - each browser tab gets an isolated conversation history via LangChain's `RunnableWithMessageHistory`, capped at the most recent 20 messages so context (and token spend) doesn't grow unbounded.
 - **Configurable sidebar** - switch between models (`llama-3.3-70b-versatile`, `llama-3.1-8b-instant`, `gemma2-9b-it`), adjust temperature and max response tokens, and edit the system prompt at runtime.
-- **Resilient API calls** — transient Groq failures are retried automatically (exponential backoff, up to 2 retries) and mapped to friendly, user-facing error messages instead of raw stack traces.
+- **Resilient API calls** - transient Groq failures are retried automatically (exponential backoff, up to 2 retries) and mapped to friendly, user-facing error messages instead of raw stack traces.
 - **Chat export** — download the current conversation as a timestamped JSON file.
 - **Clear chat** — reset both the displayed transcript and the underlying LangChain session memory.
 - **Optional LangSmith tracing** — set the standard `LANGCHAIN_*` environment variables to get run-by-run visibility into every prompt and chain step.
