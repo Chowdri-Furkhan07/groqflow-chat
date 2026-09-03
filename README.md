@@ -21,7 +21,7 @@ A production-structured Streamlit chat application powered by Groq's LPU inferen
 - **Clear chat** - reset both the displayed transcript and the underlying LangChain session memory.
 - **Optional LangSmith tracing** - set the standard `LANGCHAIN_*` environment variables to get run-by-run visibility into every prompt and chain step.
 - **Tested** - unit tests cover session history isolation/trimming and settings validation.
-- **Containerized** — includes a Dockerfile for a self-contained deployment.
+- **Containerized** - includes a Dockerfile for a self-contained deployment.
 
 ---
 
