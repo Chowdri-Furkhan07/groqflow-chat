@@ -9,6 +9,8 @@
 
 A production-structured Streamlit chat application powered by Groq's LPU inference and orchestrated with LangChain. It provides per-session conversational memory, streaming responses, and a configurable sidebar, and is packaged for containerized deployment.
 
+---
+
 ## Features
 
 - **Streaming responses** - assistant replies are rendered token-by-token in a typing-style UI.
