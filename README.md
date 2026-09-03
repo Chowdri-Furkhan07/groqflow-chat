@@ -19,7 +19,7 @@ A production-structured Streamlit chat application powered by Groq's LPU inferen
 - **Resilient API calls** - transient Groq failures are retried automatically (exponential backoff, up to 2 retries) and mapped to friendly, user-facing error messages instead of raw stack traces.
 - **Chat export** - download the current conversation as a timestamped JSON file.
 - **Clear chat** — reset both the displayed transcript and the underlying LangChain session memory.
-- **Optional LangSmith tracing** — set the standard `LANGCHAIN_*` environment variables to get run-by-run visibility into every prompt and chain step.
+- **Optional LangSmith tracing** - set the standard `LANGCHAIN_*` environment variables to get run-by-run visibility into every prompt and chain step.
 - **Tested** — unit tests cover session history isolation/trimming and settings validation.
 - **Containerized** — includes a Dockerfile for a self-contained deployment.
 
