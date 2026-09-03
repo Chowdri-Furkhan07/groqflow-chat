@@ -23,6 +23,8 @@ A production-structured Streamlit chat application powered by Groq's LPU inferen
 - **Tested** — unit tests cover session history isolation/trimming and settings validation.
 - **Containerized** — includes a Dockerfile for a self-contained deployment.
 
+---
+
 ## Screenshots
 
 | Preview | Results |
