@@ -31,6 +31,8 @@ A production-structured Streamlit chat application powered by Groq's LPU inferen
 |---|---|
 | ![Preview](screenshots/Preview.png) | ![Results](screenshots/Results.png) |
 
+---
+
 ## Tech Stack
 
 | Layer | Technology |
