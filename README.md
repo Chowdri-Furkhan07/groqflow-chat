@@ -113,6 +113,8 @@ docker build -t groqflow-chat .
 docker run -p 8501:8501 -e GROQ_API_KEY=your-groq-api-key groqflow-chat
 ```
 
+---
+
 ## Testing
 
 ```bash
