@@ -63,6 +63,7 @@ A production-structured Streamlit chat application powered by Groq's LPU inferen
 ├── requirements.txt
 └── requirements-dev.txt
 ```
+---
 
 ## Getting Started
 
