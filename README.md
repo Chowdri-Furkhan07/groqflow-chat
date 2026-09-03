@@ -43,6 +43,8 @@ A production-structured Streamlit chat application powered by Groq's LPU inferen
 | Linting | Ruff |
 | Deployment | Docker |
 
+---
+
 ## Project Structure
 
 ```
