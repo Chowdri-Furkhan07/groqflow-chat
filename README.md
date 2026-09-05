@@ -90,7 +90,7 @@ GROQ_API_KEY=your-groq-api-key
 
 The key can also be entered directly in the sidebar at runtime, which overrides the environment value.
 
-Optional — enable LangSmith tracing:
+Optional - enable LangSmith tracing:
 
 ```bash
 LANGCHAIN_TRACING_V2=true
